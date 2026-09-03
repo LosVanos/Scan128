@@ -1,0 +1,27 @@
+SCAN128 — GITHUB READY
+
+Este pacote já tem a estrutura correta:
+.github/workflows/build-apk.yml
+app/
+build.gradle.kts
+settings.gradle.kts
+gradle.properties
+
+MÉTODO MAIS FÁCIL NO WINDOWS
+
+1. Extrai este ZIP para uma pasta.
+2. Abre a pasta extraída.
+3. Faz duplo clique em:
+   ENVIAR-PARA-GITHUB.bat
+4. Quando pedir o URL do repositório, cola algo como:
+   https://github.com/TEU-UTILIZADOR/Scan128.git
+5. O script envia toda a estrutura correta para o GitHub.
+6. Vai ao GitHub > Actions.
+7. O workflow "Build Scan128 APK" deverá correr automaticamente.
+8. Quando ficar verde, abre a execução.
+9. Em Artifacts, descarrega "Scan128-APK".
+10. Dentro do ZIP estará o app-debug.apk.
+
+NOTA:
+O script usa --force para substituir o conteúdo atual desse repositório.
+Usa-o apenas no repositório Scan128 que criaste para este projeto.
